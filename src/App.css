@@ -1,0 +1,59 @@
+/* Common styles */
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .header {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgb(2, 158, 132);
+
+  }
+  .main {
+    display: flex;
+    padding: 10px;
+  }
+  .div__1, .div__2 {
+    margin-bottom: 1em;
+    margin-left: 20px;
+  }
+  .div__1 {
+    flex: 0.8;
+  }
+  strong {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .div__2 {
+    flex: 0.2;
+  }
+  /* Light mode styles */
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  .light-mode .btn-outline-primary {
+    color: black;
+    border-color: black;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode {
+    background:linear-gradient(37deg,blue,rgb(54, 3, 3),blue);
+    color: white;
+  }
+  
+  .dark-mode .btn-outline-primary {
+    color: white;
+    border-color: white;
+  }
+  
